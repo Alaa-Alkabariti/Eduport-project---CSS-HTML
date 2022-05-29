@@ -1,0 +1,118 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: azure;
+}
+ 
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/markus-spiske-k0rVudBoB4c-unsplash.jpg.crdownload');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.containerOverlay {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(101, 239, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    opacity: .9;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+} 
+
+.content {
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.appImage {
+    width: 8%;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    width: 45%;
+}
+
+.description {
+    color: wheat;
+    font-size: 16px;
+    width: 40%;
+    margin-top: -20px;
+    margin-bottom: 50px;
+} 
+
+.username,
+.fontsize {
+    background-color: transparent;
+    border: .1px solid #eeeeee;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+
+.color {
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: .3px solid #eeeeee;
+}
+
+.username::placeholder,
+.fontsize::placeholder {
+    color: rgba(255, 255, 255, 0.292);
+}
+
+.display {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: .5px solid #aaaaaa;
+    border-radius: 10px;
+    background-color: floralwhite;
+}
+
+button {
+    color: rgb(51, 43, 43);
+    font-weight: bold;
+    border: .1px solid #eeeeee45;
+    background-color: #ffffff81;
+    padding: 10px 20px;
+    width: 60%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 3px 5px 5px #eeeeee33;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+    border: .3px solid white;
+}
+
+.output p {
+    color: black;
+    font-weight: bold;
+}
+
+input:focus {
+    color: white;
+}
